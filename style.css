@@ -48,3 +48,16 @@ body
     color: rgba(255, 255, 255, 0.25);
     letter-spacing: 0.1em;
 }
+
+.input-Box input:focus ~ span,
+.input-Box input:valid ~ span
+{
+    color: #1d2b3a;
+    font-size: 0.75em;
+    transform: translateX(10px) translateY(-7px);
+    padding: 0 5px;
+    background: #00dfc4;
+    border-radius: 2px;
+}
+
+
